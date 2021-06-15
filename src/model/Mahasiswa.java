@@ -43,4 +43,10 @@ public class Mahasiswa {
     public boolean delete(){
         return false;
     }
+
+    public Mahasiswa() {
+        System.out.println("Ini dari costructor");
+        npm = "NPM masih kosong";
+        nama = "Nama masih kosong";
+    }
 }
