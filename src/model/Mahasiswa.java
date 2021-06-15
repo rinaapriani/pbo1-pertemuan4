@@ -2,6 +2,7 @@ package model;
 
 import java.util.ArrayList;
 
+//superclass/parent-class
 public class Mahasiswa {
     //atribut/properties
     public String npm;
@@ -11,7 +12,7 @@ public class Mahasiswa {
     //Enkapsulasi
     private String kota;
 
-
+    //enkapsulasi
     public String getKota() {
         return kota;
     }
@@ -60,5 +61,6 @@ public class Mahasiswa {
         System.out.println("Ini dari costructor");
         npm = "NPM masih kosong";
         nama = "Nama masih kosong";
+
     }
 }
