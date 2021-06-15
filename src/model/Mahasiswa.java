@@ -8,6 +8,17 @@ public class Mahasiswa {
     public String nama;
     public int jumlahSKS;
     public double ipk;
+    //Enkapsulasi
+    private String kota;
+
+    //Enkapsulasi
+    public String getKota() {
+        return kota;
+    }
+
+    public void setKota(String kota) {
+        this.kota = kota;
+    }
 
     //behavior/method
     public void mengambilKRS(){}
@@ -19,6 +30,7 @@ public class Mahasiswa {
         System.out.println("Nama :" + nama);
         System.out.println("Jumlah SKS :" +jumlahSKS);
         System.out.println("IPK :" +ipk);
+        System.out.println("Kota:" +kota);
     }
 
     public boolean create(){

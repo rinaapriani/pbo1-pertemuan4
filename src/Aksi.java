@@ -16,11 +16,10 @@ public class Aksi {
         fulan.nama = "Fulan bin Fulan";
         fulan.jumlahSKS = 100;
         fulan.ipk = 3.11;
+        fulan.setKota("Banjarbaru");
 
         fulan.tampilkanInfo();
         fulan.create();
-
-
 
         Mahasiswa mahasiswa =  new Mahasiswa();
         mahasiswa.npm = "19630002";
@@ -36,7 +35,6 @@ public class Aksi {
         Mahasiswa m = new Mahasiswa();
         m.tampilkanInfo();
 
-        Scanner inputan = new Scanner(System.in);
-        fulan.nama = inputan.nextLine();
+
     }
 }
