@@ -11,7 +11,7 @@ public class Mahasiswa {
     //Enkapsulasi
     private String kota;
 
-    //Enkapsulasi
+
     public String getKota() {
         return kota;
     }
